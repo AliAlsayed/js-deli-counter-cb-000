@@ -16,7 +16,7 @@ function currentLine(line){
     return "The line is currently empty."
   }
   theLine = "The line is currently:"
-  for(var = i; i < line.length; i++){
+  for(var i = 0; i < line.length; i++){
     theLine += ` ${i + 1}. ${line[i]},`
   }
   return theLine
