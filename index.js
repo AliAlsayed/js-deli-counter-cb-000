@@ -19,5 +19,5 @@ function currentLine(line){
   for(var i = 0; i < line.length; i++){
     theLine += ` ${i + 1}. ${line[i]},`
   }
-  return theLine
+  return theLine.slice(0, -1)
 }
